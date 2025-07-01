@@ -160,7 +160,7 @@ pre[class*=language-] {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     list-style: none;
     padding: 0;
     /* Fix of Webkit flickering */
@@ -397,7 +397,7 @@ pre[class*=language-] {
 
 /* Bullets */
 .swiper-pagination-bullets-dynamic {
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 0;
 }
 
@@ -780,7 +780,7 @@ button.swiper-pagination-bullet {
     top: 0;
     left: 0;
     z-index: 999999 !important;
-    overflow: hidden;
+    /* overflow: hidden; */
     touch-action: none;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -799,7 +799,7 @@ button.swiper-pagination-bullet {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .glightbox-container .gslider {
@@ -809,7 +809,7 @@ button.swiper-pagination-bullet {
     top: 0;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -932,7 +932,7 @@ button.swiper-pagination-bullet {
 }
 
 .gslide-video .plyr__poster-enabled.plyr--loading .plyr__poster {
-    display: none;
+    /* display: none; */
 }
 
 .gslide-video .gvideo-wrapper {
@@ -947,11 +947,11 @@ button.swiper-pagination-bullet {
     width: 100%;
     height: 100%;
     background: rgba(255, 0, 0, 0.34);
-    display: none;
+    /* display: none; */
 }
 
 .gslide-video.playing::before {
-    display: none;
+    /* display: none; */
 }
 
 .gslide-video.fullscreen {
@@ -986,7 +986,7 @@ button.swiper-pagination-bullet {
 
 .ginlined-content {
     overflow: auto;
-    display: block !important;
+    /* display: block !important; */
     opacity: 1;
 }
 
@@ -1040,13 +1040,13 @@ button.swiper-pagination-bullet {
     margin-bottom: 0;
 }
 
-.zoomed .gslide-description {
+/* .zoomed .gslide-description {
     display: none;
 }
 
 .glightbox-button-hidden {
     display: none;
-}
+} */
 
 /*
  * Description for mobiles
@@ -1117,9 +1117,9 @@ button.swiper-pagination-bullet {
     position: relative;
 }
 
-.glightbox-desc {
+/* .glightbox-desc {
     display: none !important;
-}
+} */
 
 .glightbox-open {
     overflow: hidden;
@@ -1133,7 +1133,7 @@ button.swiper-pagination-bullet {
     border-right-color: transparent;
     border-radius: 50%;
     position: absolute;
-    display: block;
+    /* display: block; */
     z-index: 9999;
     left: 0;
     right: 0;
