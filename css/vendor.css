@@ -368,6 +368,11 @@ pre[class*=language-] {
     display: none;
 }
 
+.entry__thumb{
+    background-color: red  !important; 
+    height: 333px !important;
+}
+
 :root {
     /*
     --swiper-pagination-color: var(--swiper-theme-color);
